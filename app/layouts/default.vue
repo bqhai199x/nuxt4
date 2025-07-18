@@ -1,12 +1,13 @@
 <template>
-  <div class="min-h-screen">
+  <v-app>
     <AppHeader />
-    <main>
+    <v-main>
       <NuxtPage />
-    </main>
+    </v-main>
     <AppFooter />
-  </div>
+  </v-app>
 </template>
 
 <script setup lang="ts">
+
 </script>
