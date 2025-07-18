@@ -5,7 +5,8 @@ export default defineNuxtConfig({
   modules: [
     '@nuxt/eslint',
     '@nuxtjs/tailwindcss',
-    '@nuxtjs/i18n'
+    '@nuxtjs/i18n',
+    'vuetify-nuxt-module'
   ],
   i18n: {
     defaultLocale: 'vi',
